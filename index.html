@@ -1,0 +1,192 @@
+
+
+
+</head>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script>
+alert("使用须知：\n1.本站所分享论文版权归作者及其所属单位所有，仅供学习交流使用，后果自负\n请遵守学术道德和本学校校规校纪，禁止抄袭。\n2.本站展示图片为部分展示，全部内容请访问链接。\n3.本站为零收益公益网站，本着开源精神为广大程序猿童鞋服务，请不要恶意攻击或恶意举报。\n4.关于本站问题本人唯一联系方式：2271918068@qq.com，其他方式联系概不回复\n5.本人创建本站初衷是弥补计算机类毕业设计难以整理这一空缺，没有其他的企图，祝大家好好完成毕业设计。\n6.本站暂定开放时间为：2018年12月1日——2019年6月1日")
+
+</script>
+<title>逍遥书生计算机毕设分享网</title>
+
+
+</head>
+
+<body bgcolor="#FF9900">
+	
+   <form > </table>
+    <table  align="center"  height="700" width="80%" bgcolor="#FFFF99"  border="0"  cellpadding="0" cellspacing="0">
+		<tr >
+        	<td colspan="5"  bgcolor=" ##BFFF00 " align="center"><h1>逍遥书生计算机专业毕业设计论文分享站</h1></td>
+        </tr>
+		<tr >
+        	<td colspan="5"  bgcolor=" #FF00FF " align="center">
+			<!-- 时钟 -->
+			<script type="text/javascript" src="vue.min.js"></script> 
+
+<div id="clock">
+    <p class="date">{{ date }}</p>
+    <p class="time">{{ time }}</p>
+    
+</div>
+
+<script>
+var clock = new Vue({
+    el: '#clock',
+    data: {
+        time: '',
+        date: ''
+    }
+});
+
+var week = ['星期天', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+var timerID = setInterval(updateTime, 1000);
+updateTime();
+function updateTime() {
+    var cd = new Date();
+    clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2);
+    clock.date = zeroPadding(cd.getFullYear(), 4) + '-' + zeroPadding(cd.getMonth()+1, 2) + '-' + zeroPadding(cd.getDate(), 2) + ' ' + week[cd.getDay()];
+};
+
+function zeroPadding(num, digit) {
+    var zero = '';
+    for(var i = 0; i < digit; i++) {
+        zero += '0';
+    }
+    return (zero + num).slice(-digit);
+}
+</script>
+
+</div>
+			
+			
+			
+			</td>
+        </tr>
+		
+		<!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp毕业答辩模板整理:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="1.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+		
+		<!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp纯论文:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="2.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+		
+		<!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp计算机毕业设计——Asp:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="asp.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+       <!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp计算机毕业设计——Java:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="java.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+		
+		<!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp计算机毕业设计——JSP:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="jsp.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+		<!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp计算机毕业设计——PHP:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="php.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+		<!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp计算机毕业设计——VB:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="vb.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+		<!-- ... -->
+		<tr >
+        	<td  align="left" bgcolor="#FFCC33" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp计算机毕业设计——未分类:</h3></td>
+        </tr>
+		
+		<tr><td colspan="4"><img src="3.png"></td></tr>
+		
+		<tr >
+        	<td  align="left" bgcolor="#00FFFF" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp微云链接：链接：<a>https://share.weiyun.com/50aq5ms</a> 密码：cniwik</h3></td>
+        </tr>
+		<tr >
+        	<td  align="left" bgcolor="#F7FE2E" colspan="4" ><h3>&nbsp&nbsp&nbsp&nbsp</h3></td>
+        </tr>
+		
+		
+		<tr >
+        	<td  align="center" bgcolor="#BFFF00" colspan="4" ><h3>网站版权所有©逍遥书生 2271918068@qq.com</h3></td>
+        </tr>
+		
+        <tr bgcolor="#FF9900">
+        	<td></td><td></td><td></td><td></td><td></td>
+        </tr ></table></form>
+    
+</body>
+</html>
